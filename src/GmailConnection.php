@@ -3,7 +3,7 @@
 namespace Amchara\LaravelGmail;
 
 use Amchara\LaravelGmail\Traits\Configurable;
-use App\MailConfig;
+use App\Models\MailConfig;
 use Google_Client;
 use Google_Service_Gmail;
 use Illuminate\Container\Container;
