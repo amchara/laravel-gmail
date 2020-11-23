@@ -43,7 +43,7 @@ class LaravelGmailClass extends GmailConnection
 
     public function redirect()
     {
-        return Redirect::to($this->getAuthUrl());
+        return $this->getAuthUrl();
     }
 
     /**
