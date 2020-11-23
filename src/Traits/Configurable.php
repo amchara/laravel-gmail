@@ -2,7 +2,7 @@
 
 namespace Amchara\LaravelGmail\Traits;
 
-use App\MailConfig;
+use App\Models\MailConfig;
 use Google_Service_Gmail;
 use Illuminate\Support\Arr;
 
