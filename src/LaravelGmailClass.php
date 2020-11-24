@@ -15,7 +15,7 @@ class LaravelGmailClass extends GmailConnection
             $config = $config['config'];
         }
 
-        $config['state'] = auth()->user()->id;
+        $config['state'] = auth()->user()->mailConfig->state_uuid;
 
         parent::__construct($config);
     }
